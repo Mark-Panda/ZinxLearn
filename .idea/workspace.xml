@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf4b0eb-409b-4ca0-a0a3-93406878025a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ziface/irequest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ziface/irouter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/znet/request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/znet/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziface/iserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/ziface/iserver.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/znet/connection.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/znet/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/znet/server.go" afterDir="false" />
     </list>
@@ -27,8 +33,11 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1TxEJ0hz0o52iwzntPNoC5Qsbr8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
