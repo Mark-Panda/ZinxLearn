@@ -3,6 +3,7 @@ package znet
 import (
 	"fmt"
 	"net"
+	"zinxText/utils"
 	"zinxText/ziface"
 )
 
@@ -49,7 +50,7 @@ func (c *Connection) StartReader()  {
 
 	for {
 		//读取客户端的数据到buffer中，最大512字节
-		buf := make([]byte, 512)
+		buf := make([]byte, utils.GlobalObject.MaxPackageSize)
 		_, err := c.Conn.Read(buf)
 		if err != nil {
 			fmt.Println("recv buf err", err)
@@ -57,7 +58,7 @@ func (c *Connection) StartReader()  {
 		}
 		//得到当前conn数据的Request请求数据
 		req := Request{
-			conn: c,
+			conn: c ,
 			data: buf,
 		}
 		//执行注册路由的方法

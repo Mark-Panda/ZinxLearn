@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf4b0eb-409b-4ca0-a0a3-93406878025a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ziface/irequest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ziface/irouter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/znet/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/znet/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/conf/zinx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/globalobj.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ziface/idatapack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ziface/imessage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/znet/datapack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/znet/message.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ziface/iserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/ziface/iserver.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/znet/connection.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/znet/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/znet/server.go" afterDir="false" />
     </list>
@@ -43,6 +45,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
