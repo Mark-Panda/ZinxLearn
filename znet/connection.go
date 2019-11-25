@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"zinxText/utils"
 	"zinxText/ziface"
 )
 
@@ -47,6 +46,7 @@ func NewConnection(conn *net.TCPConn, connID uint32, router ziface.IRouter) *Con
 
 //连接的读业务
 func (c *Connection) StartReader() {
+
 	fmt.Println("Reader Goroutine is running..")
 	defer fmt.Println("connID =", c.ConnID, "Reader is exit, remote addr is", c.RemoteAddr().String())
 	defer c.Stop()
@@ -119,6 +119,7 @@ func (c *Connection) Start() {
 	//TODO 启动从当前连接写数据的业务
 
 	//
+
 }
 
 //停止链接  结束当前链接的工作
