@@ -19,7 +19,7 @@ type GlobalObj struct {
 	 */
 	TcpServer ziface.IServer //当前Zinx全局的Server对象
 	Host string  //当前服务器监听的IP
-	TcpPort string  //当前服务器监听的端口号
+	TcpPort int32  //当前服务器监听的端口号
 	Name string  //当前服务器的名称
 	/*
 	Zinx
@@ -57,7 +57,7 @@ func init()  {
 	//如果配置文件没有加载，默认的值
 	GlobalObject = &GlobalObj{
 		Host:           "0.0.0.0",
-		TcpPort:        "8999",
+		TcpPort:        8999,
 		Name:           "ZinxServerApp",
 		Version:        "V0.4",
 		MaxConn:        1000,
@@ -65,5 +65,5 @@ func init()  {
 	}
 
 	//应该尝试从conf/zinx.json去加载一些用户自定义的参数
-	GlobalObject.Reload()
+	//GlobalObject.Reload()
 }

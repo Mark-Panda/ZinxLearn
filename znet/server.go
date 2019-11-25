@@ -17,7 +17,7 @@ type Server struct {
 	//服务器监听的IP
 	IP string
 	//服务器监听的端口
-	Port string
+	Port int32
 	//当前的server添加一个router，server注册的链接对应的处理业务
 	Router ziface.IRouter
 }
@@ -38,7 +38,7 @@ func CallBackToClient(conn *net.TCPConn, data []byte, cnt int) error  {
 
 //启动服务器
 func (s *Server) Start()  {
-	fmt.Println("[Zinx] Server Name: %s, Listenner at IP: %s, Port: %d is starting\n",
+	fmt.Printf("[Zinx] Server Name: %s, Listenner at IP: %s, Port: %d is starting\n",
 		utils.GlobalObject.Name, utils.GlobalObject.Host, utils.GlobalObject.TcpPort)
 	go func() {
 		// 1.获取一个TCP的Address
